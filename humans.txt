@@ -1,0 +1,19 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+http://humanstxt.org
+
+/* TEAM */
+
+Software Developer: Scott E Lundgren
+Site: http://www.scottelundgren.com/
+Twitter: @scottelundgren
+Github: https://github.com/scottelundgren
+Location: Charlotte, NC, USA
+
+/* SITE */
+
+Last update: 08/01/2014
+Standards: HTML5, CSS3, W3
+Components: Bootstrap, jQuery, FontAwesome, Middleman
+Software: git, atom.io, OS X
