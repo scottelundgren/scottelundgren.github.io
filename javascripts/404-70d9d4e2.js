@@ -1,1 +1,0 @@
-$(".search-goog form").addClass("form-inline"),$("#goog-wm-qt").addClass("form-control"),$("#goog-wm-sb").addClass("btn btn-default");
