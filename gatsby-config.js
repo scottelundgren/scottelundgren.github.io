@@ -3,7 +3,7 @@ module.exports = {
     title: `Scott Lundgren`,
     description: `Lawful Dev in a Chaotic Ops World 😼 Everything is an Experiment`,
     author: `Scott Lundgren`,
-    siteUrl: `http://www.scottelundgren.com`,
+    siteUrl: `https://www.scottelundgren.com`,
     social: {
       facebook: ``,
       github: `scottelundgren`,
