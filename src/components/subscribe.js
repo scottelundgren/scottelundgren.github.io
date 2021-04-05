@@ -7,8 +7,7 @@ const SubscriptionForm = ({ tags }) => {
 
   const YOUR_FORM_ID = '2165724';
   const YOUR_SUBFORM_ID = '8997';
-  
-  const SUB_FORM_URL = `https://app.convertkit.com/forms/${YOUR_FORM_ID}/subscriptions`;
+  const YOUR_FORM_URL = `https://app.convertkit.com/forms/${YOUR_FORM_ID}/subscriptions`;
 
   const data = useStaticQuery(graphql`
     query {
@@ -33,7 +32,7 @@ const SubscriptionForm = ({ tags }) => {
 
     try {
       const response = await fetch(
-        FORM_URL,
+        YOUR_FORM_URL,
         {
           method: 'post',
           body: data,
@@ -61,7 +60,7 @@ const SubscriptionForm = ({ tags }) => {
       <span class="post-subscribe-cta">
         Do you miss staying up late talking about really interesting ideas? I do! That's why I send out articles - to start conversations with interesting people like you 😉. You can always unsubscribe.
       </span>
-      <form action={SUB_FORM_URL} method="post" onSubmit={handleSubmit}> 
+      <form action={YOUR_FORM_URL} method="post" onSubmit={handleSubmit}> 
         <input
           type="text"
           aria-label="First Name"
