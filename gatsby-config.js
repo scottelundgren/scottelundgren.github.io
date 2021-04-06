@@ -67,6 +67,12 @@ module.exports = {
       options: { typeName: 'Tag', path: 'src/data/convertkit-tags' },
     },
     {
+      resolve: `gatsby-plugin-canonical-urls`,
+      options: {
+        siteUrl: `https://www.scottelundgren.com`,
+      },
+    },
+    {
       resolve: `gatsby-plugin-feed`,
       options: {
         query: `
