@@ -51,7 +51,7 @@ class BlogIndex extends React.Component {
             )
           })}
           <div className="container">
-            <nav className="pagination" role="pagination">
+            <nav className="pagination" role="navigation">
               <ul>
                 {!isFirst && (
                   <p>
