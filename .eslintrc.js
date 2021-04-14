@@ -9,11 +9,5 @@ module.exports = {
   "globals": {
     "graphql": false,
   },
-  "parserOptions": {
-    "sourceType": "module",
-    "ecmaFeatures": {
-      "experimentalObjectRestSpread": true,
-      "jsx": true,
-    },
-  }
+  "parser": "babel-eslint"
 }
