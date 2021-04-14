@@ -22,43 +22,43 @@ const Sidebar = ({ siteMetadata }) => (
           <ul>
             {siteMetadata.social.facebook && (
               <li>
-                <a href={`https://facebook.com/${siteMetadata.social.facebook}`} target="_blank" >
-                  <i className="fa fa-facebook" aria-hidden="true" />
+                <a href={`https://facebook.com/${siteMetadata.social.facebook}`} rel="noopener" target="_blank">
+                  <i className="fa fa-facebook" />
                 </a>
               </li>
             )}
             {siteMetadata.social.github && (
               <li>
-                <a href={`https://github.com/${siteMetadata.social.github}`} target="_blank" >
-                  <i className="fa fa-github" aria-hidden="true" />
+                <a href={`https://github.com/${siteMetadata.social.github}`} rel="noopener" target="_blank">
+                  <i className="fa fa-github" />
                 </a>
               </li>
             )}
             {siteMetadata.social.instagram && (
               <li>
-                <a href={`https://instagram.com/${siteMetadata.social.instagram}`} target="_blank">
-                  <i className="fa fa-instagram" aria-hidden="true" />
+                <a href={`https://instagram.com/${siteMetadata.social.instagram}`} rel="noopener" target="_blank">
+                  <i className="fa fa-instagram" />
                 </a>
               </li>
             )}
             {siteMetadata.social.linkedin && (
               <li>
-                <a href={`https://linkedin.com/in/${siteMetadata.social.linkedin}`} target="_blank" >
-                  <i className="fa fa-linkedin" aria-hidden="true" />
+                <a href={`https://linkedin.com/in/${siteMetadata.social.linkedin}`} rel="noopener" target="_blank" >
+                  <i className="fa fa-linkedin" />
                 </a>
               </li>
             )}
             {siteMetadata.social.twitter && (
               <li>
                 <a href={`https://twitter.com/${siteMetadata.social.twitter}`}
-                  target="_blank" >
-                  <i className="fa fa-twitter" aria-hidden="true" />
+                  rel="noopener" target="_blank" >
+                  <i className="fa fa-twitter" />
                 </a>
               </li>
             )}
               <li>
                 <Link to="/rss.xml">
-                  <i className="fa fa-rss" aria-hidden="true" />
+                  <i className="fa fa-rss" />
                 </Link>
               </li>
           </ul>
