@@ -144,18 +144,6 @@ module.exports = {
       },
     },
     `gatsby-plugin-image`,
-    {
-      resolve: `gatsby-plugin-manifest`,
-      options: {
-        name: `Scott Lundgren`,
-        short_name: `Scott Lundgren`,
-        start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
-        display: `standalone`,
-        icon: `src/images/e-icon.png`, // This path is relative to the root of the site.
-      },
-    },
     `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sass`,

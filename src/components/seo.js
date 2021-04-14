@@ -40,16 +40,24 @@ function SEO({ description, lang, meta, title }) {
           content: metaDescription,
         },
         {
-          property: `og:title`,
-          content: title,
+          name: `msapplication-TileColor`,
+          content: `#2b5797`,
         },
         {
           property: `og:description`,
           content: metaDescription,
         },
         {
+          property: `og:title`,
+          content: title,
+        },
+        {
           property: `og:type`,
           content: `website`,
+        },
+        {
+          name: `theme-color`,
+          content: `#ffffff`,
         },
         {
           name: `twitter:card`,
@@ -68,7 +76,35 @@ function SEO({ description, lang, meta, title }) {
           content: metaDescription,
         },
       ].concat(meta)}
-    />
+      link={[
+        {
+          rel: `apple-touch-icon`,
+          href: `/apple-touch-icon.png`,
+          sizes: `180x180`
+        },
+        {
+          rel: `icon`,
+          href: `/favicon-32x32.png`,
+          sizes: `32x32`,
+          type: `image/png`
+        },
+        {
+          rel: `icon`,
+          href: `/favicon-16x16.png`,
+          sizes: `16x16`,
+          type: `image/png`
+        },
+        {
+          rel: `manifest`,
+          href: `/site.webmanifest`
+        },
+        {
+          rel: `mask-icon`,
+          href: `/safari-pinned-tab.svg`,
+          color: `#5bbad5`
+        }
+      ].concat()}
+      />
   )
 }
 

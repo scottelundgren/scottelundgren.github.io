@@ -31,7 +31,7 @@ const DefaultLayout = ({ children }) => (
     render={data => (
       <div className="wrapper">
         <Helmet>
-          <link href="https://fonts.googleapis.com/css?family=Lato|PT+Serif&display=swap" rel="stylesheet" />
+          <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato|PT+Serif&display=swap" />
         </Helmet>
         <Sidebar siteMetadata={data.site.siteMetadata} />
         {children}
