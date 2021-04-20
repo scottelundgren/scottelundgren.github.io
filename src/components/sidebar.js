@@ -22,28 +22,28 @@ const Sidebar = ({ siteMetadata }) => (
           <ul>
             {siteMetadata.social.facebook && (
               <li>
-                <a href={`https://facebook.com/${siteMetadata.social.facebook}`} rel="noopener" target="_blank">
+                <a href={`https://facebook.com/${siteMetadata.social.facebook}`} aria-label="Facebook" rel="noopener" target="_blank">
                   <i className="fa fa-facebook" />
                 </a>
               </li>
             )}
             {siteMetadata.social.github && (
               <li>
-                <a href={`https://github.com/${siteMetadata.social.github}`} rel="noopener" target="_blank">
+                <a href={`https://github.com/${siteMetadata.social.github}`} aria-label="Github" rel="noopener" target="_blank">
                   <i className="fa fa-github" />
                 </a>
               </li>
             )}
             {siteMetadata.social.instagram && (
               <li>
-                <a href={`https://instagram.com/${siteMetadata.social.instagram}`} rel="noopener" target="_blank">
+                <a href={`https://instagram.com/${siteMetadata.social.instagram}`} aria-label="Instagram" rel="noopener" target="_blank">
                   <i className="fa fa-instagram" />
                 </a>
               </li>
             )}
             {siteMetadata.social.linkedin && (
               <li>
-                <a href={`https://linkedin.com/in/${siteMetadata.social.linkedin}`} rel="noopener" target="_blank" >
+                <a href={`https://linkedin.com/in/${siteMetadata.social.linkedin}`} aria-label="LinkedIn" rel="noopener" target="_blank" >
                   <i className="fa fa-linkedin" />
                 </a>
               </li>
@@ -51,7 +51,7 @@ const Sidebar = ({ siteMetadata }) => (
             {siteMetadata.social.twitter && (
               <li>
                 <a href={`https://twitter.com/${siteMetadata.social.twitter}`}
-                  rel="noopener" target="_blank" >
+                  aria-label="Twitter" rel="noopener" target="_blank" >
                   <i className="fa fa-twitter" />
                 </a>
               </li>
