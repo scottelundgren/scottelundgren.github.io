@@ -1,15 +1,15 @@
 ---
 title: What Claire Danes Taught Me about DevOps
 date: 2013-11-02
-description: Summary 
-img:
+description: the lessons being an extra on Showtime's Homeland Season 3 Episode 5's The Yoga Play taught me about software development
+img: ./homeland-S03-E05-the-yoga-play-scene-530.jpg
 tags: [Business,Infrastructure,Tech,Yoga]
 ---
 In July my voice teacher let me know that Homeland was looking for yoga practitioners for a scene. Between the morning when she mentioned it and the afternoon when she filled me in on the details to apply, seemingly twitter, facebook and even lunch time TV news had spread the word.
 
 What I first intended to try out as a lark now seemed daunting. With a little encouragement from my teacher, I applied, and was cast!
 
-Homeland - The Yoga Play Script
+![Homeland Season 3 Episode 5 The Yoga Play Script](./homeland-S03-E05-the-yoga-play-script.jpeg)
 
 The morning I showed up on set I was promoted from extra to stand-in because I resembled one of the actors. As a stand-in, you're on set to watch as the actors rehearse the scene, the actors & directors discussing blocking (where they'll stand & move across the set), then (surprise!) stand-in for the principal actor while lighting and sound make their adjustments for shooting.
 
