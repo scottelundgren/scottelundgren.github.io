@@ -1,8 +1,8 @@
 ---
 title: Blend Conference 2013
 date: 2013-09-10
-description: Summary
-img:
+description: Summary of the 2013 Blend Conference including the workshops, VIP dinner, and the talks attended including Ashe Dryden, James White and Carl Smith
+img: ./blendconf-2013-treehouse-promotional-video-screenshot.png
 tags: [Events, Tech]
 ---
 They say the right thing happens at the right time. I had the pleasure of working with Bermon Painter while he was organizing this event. What attracted me was an interactive driven environment and a multidisciplinary schedule. The notebook handed out to all attendees became full. I’ll do my best to summarize the experience and the longest lasting take aways.
@@ -41,12 +41,3 @@ This post title comes from James White's talk about being a [Design Renegade](ht
 * Design problems stick out
 * Features & version numbers don't improve the experience
 * Sell the experience
-
-## Books
-These are books the speakers I had a chance to ask had read
-
-Speaker	Carl Smith	Racel Nabors	Ashe Dryden
-Book			
-
-
-https://www.youtube.com/watch?v=z15fBz2I1YA
