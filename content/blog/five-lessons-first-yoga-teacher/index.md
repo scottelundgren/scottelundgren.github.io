@@ -1,7 +1,7 @@
 ---
 title: Five Lessons from My First Yoga Teacher
 date: 2013-07-20
-description: early lessons from my first yoga teacher
+description: Five lessons that helped me start a regular yoga practice with a healthy mindset and foundation for a safe long term practice
 img:
 tags: [Yoga]
 ---

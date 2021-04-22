@@ -1,7 +1,7 @@
 ---
 title: SearchExchange 2013
 date: 2013-08-01
-description: Summary
+description: Summary of the 2013 SearchExchange Conference in Charlotte, NC on Pay Per Click (PPC), Search Engine Optimization (SEO), and Social Media Marketing (SMM)
 img:
 tags: [Business,Events,Tech]
 ---

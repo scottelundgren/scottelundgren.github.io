@@ -1,7 +1,7 @@
 ---
 title: Girl Develop It Launches Charlotte Chapter
 date: 2014-07-31
-description: Summary
+description: Goals, offerings and hopes for this new group supporting women in technology in Charlotte,NC 
 img:
 tags: [Tech]
 ---

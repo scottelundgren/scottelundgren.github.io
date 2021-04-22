@@ -1,7 +1,7 @@
 ---
 title: Hacking Nan & Byron's Beet Burger
 date: 2014-05-13
-description: Recipe for the Beet Burger at Nan & Byron's and 5 Church in Charlotte,NC
+description: 45 min start to finish recipe for a beet burger with awesome meaty mouth feel found at Nan & Byron's and 5 Church in Charlotte, NC
 img: ./nan-byrons-beet-burger.jpg
 tags: [Cooking]
 ---

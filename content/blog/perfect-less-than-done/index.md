@@ -1,7 +1,7 @@
 ---
 title: Perfect is Less than Done
 date: 2013-07-31
-description:
+description: Stop worrying about if you or your idea is good enough! You are good enough! Your idea is good enough! Just do the damn thing then make it better.
 img:
 tags: [Adventures]
 ---

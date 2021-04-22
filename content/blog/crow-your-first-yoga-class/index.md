@@ -1,7 +1,7 @@
 ---
 title: Crow in Your First Yoga Class
 date: 2013-08-15
-description: Summary
+description: If you're struggling with the mental jump to try crow pose in your yoga practice, read this to change your confidence and perspective
 img:
 tags: [Infrastructure,Yoga]
 ---

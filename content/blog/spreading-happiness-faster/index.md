@@ -1,7 +1,7 @@
 ---
 title: Spreading Happiness (happygifs.co) Faster
 date: 2013-12-19
-description: Performance Analysis of a Side Project
+description: a step-by-step breakdown of how to improve the front end performance of a friend's image heavy side project
 img: 
 tags: [Infrastructure]
 ---

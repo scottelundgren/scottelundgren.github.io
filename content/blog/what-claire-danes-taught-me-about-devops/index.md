@@ -9,8 +9,6 @@ In July my voice teacher let me know that Homeland was looking for yoga practiti
 
 What I first intended to try out as a lark now seemed daunting. With a little encouragement from my teacher, I applied, and was cast!
 
-![Homeland Season 3 Episode 5 The Yoga Play Script](./homeland-S03-E05-the-yoga-play-script.jpeg)
-
 The morning I showed up on set I was promoted from extra to stand-in because I resembled one of the actors. As a stand-in, you're on set to watch as the actors rehearse the scene, the actors & directors discussing blocking (where they'll stand & move across the set), then (surprise!) stand-in for the principal actor while lighting and sound make their adjustments for shooting.
 
 The actors come back, you as stand-in get out of the way, and the crew shoots the scene. There isn't much to do, so it affords a lot of time to observe. That's how I noticed the production of a television episode is a lot like software development.
@@ -33,7 +31,7 @@ If the episode/web application is the end product how does everyone else fit? Wi
 
 There is no wall of that's acting & that's production just as DevOps embraces as we've moved from shipped stand alone software to continuously deployed web applications. Wardrobe and props are functions that help actors best embody their character just as building internal environments of development & staging or the quality assurance teams help the team create their best product.
 
-The Yoga Play Screenshot 
+![Homeland Season 3 Episode 5 The Yoga Play Script](./homeland-S03-E05-the-yoga-play-script.jpeg)
 
 As an extra waiting to see if you were cut from a scene feels a bit like waiting to see if your pull request gets accepted into a major open source project. With this past Sunday's airing of Episode 5, I was able to capture a screenshot of me in the green shirt straightening up [8th Street Studio](https://www.8thstreetstudio.com) as the actor I stood in for left.
 
