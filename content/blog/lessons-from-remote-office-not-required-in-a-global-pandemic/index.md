@@ -1,11 +1,13 @@
 ---
-title: "Lessons from Remote Office: Not Required in a Global Pandemic"
+title: "Lessons from Remote: Office Not Required in a Global Pandemic"
 date: 2021-04-20
 description: chapter by chapter examination of the book from 2013 and how its projections and recommendations applied during the COVID-19 global pandemic of 2021
 img: ./remote-office-not-required-facemask.jpeg
 tags: [Business,Tech]
 ---
 It has been one year and one month since the World Health Organization declared COVID-19 a pandemic. Therefore there is no surprise that searches on Google for the seven-and-a-half-year-old book [Remote: Office Not Required by Jason Fried and David Heinemeier Hansson](https://amzn.to/3x9h3o1) dramatically jumped. 
+
+![Google Trends Search Traffic for Remote: Office Not Required from April 2013 to April 20](./remote-office-not-required-google-trend.png)
 
 Since the pandemic was for many a sudden experiment in remote work, let us go chapter by chapter. I will examine one concept for each chapter: the promise, reality, and results.  I will acknowledge the bias that the upper half of the K-shaped economic recovery where people who were more likely to be affluent and white were able to apply the lessons from the book. These realities and results are subjective, the outcomes of decades of policy and privilege.
 
