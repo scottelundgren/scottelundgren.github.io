@@ -5,28 +5,27 @@
  * See: https://www.gatsbyjs.org/docs/use-static-query/
  */
 
-import React from 'react'
-import PropTypes from 'prop-types'
-import Helmet from 'react-helmet'
-import { useStaticQuery, graphql } from 'gatsby'
+import * as React from "react"
+import PropTypes from "prop-types"
+import { Helmet } from "react-helmet"
+import { useStaticQuery, graphql } from "gatsby"
 
-function SEO({ description, lang, meta, title }) {
+const SEO = ({ description, lang, meta, title }) => {
   const { site } = useStaticQuery(
     graphql`
       query {
         site {
           siteMetadata {
             title
-            description
-            author
+            social {
+              twitter
+            }
           }
         }
       }
     `
   )
-
-  const metaDescription = description || site.siteMetadata.description
-
+  
   return (
     <Helmet
       htmlAttributes={{
@@ -37,43 +36,47 @@ function SEO({ description, lang, meta, title }) {
       meta={[
         {
           name: `description`,
-          content: metaDescription,
-        },
-        {
-          name: `msapplication-TileColor`,
-          content: `#2b5797`,
+          content: description,
         },
         {
           property: `og:description`,
-          content: metaDescription,
+          content: description,
         },
         {
           property: `og:title`,
           content: title,
         },
+//        {
+//          name: `og:image`,
+//          content: image,
+//        },
         {
           property: `og:type`,
           content: `website`,
-        },
-        {
-          name: `theme-color`,
-          content: `#ffffff`,
         },
         {
           name: `twitter:card`,
           content: `summary`,
         },
         {
+          name: `twitter:description`,
+          content: description,
+        },
+        {
           name: `twitter:creator`,
-          content: site.siteMetadata.author,
+          content: site.siteMetadata?.social?.twitter || ``,
         },
         {
           name: `twitter:title`,
           content: title,
         },
         {
-          name: `twitter:description`,
-          content: metaDescription,
+          name: `msapplication-TileColor`,
+          content: `#2b5797`,
+        },
+        {
+          name: `theme-color`,
+          content: `#ffffff`,
         },
       ].concat(meta)}
       link={[

@@ -2,7 +2,7 @@
 title: Five Lessons from My First Yoga Teacher
 date: 2013-07-20
 description: Five lessons that helped me start a regular yoga practice with a healthy mindset and foundation for a safe long term practice
-img:
+image:
 tags: [Yoga]
 ---
 Last weekend my first yoga teacher got married. While at the wedding I thought about how we met when I started practicing 8 years ago. That reminded me about when I was in yoga teacher training earlier this year. My fellow yoga teacher trainees and I discussed our perceptions of yoga we had as beginning students.  As the ceremony started, I thought about the lessons that teacher taught me that helped avoid the early problems they felt.

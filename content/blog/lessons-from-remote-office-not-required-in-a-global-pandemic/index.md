@@ -1,8 +1,8 @@
 ---
 title: "Lessons from Remote: Office Not Required in a Global Pandemic"
-date: 2021-04-20
-description: chapter by chapter examination of the book from 2013 and how its projections and recommendations applied during the COVID-19 global pandemic of 2021
-img: ./remote-office-not-required-facemask.jpeg
+date: "2021-04-20"
+description: "Chapter by chapter examination of the book from 2013 and how it applied during the COVID-19 global pandemic of 2021"
+image: "./remote-office-not-required-facemask.jpeg"
 tags: [Business,Tech]
 ---
 It has been one year and one month since the World Health Organization declared COVID-19 a pandemic. Therefore there is no surprise that searches on Google for the seven-and-a-half-year-old book [Remote: Office Not Required by Jason Fried and David Heinemeier Hansson](https://amzn.to/3x9h3o1) dramatically jumped. 

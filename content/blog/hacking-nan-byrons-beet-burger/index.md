@@ -2,7 +2,7 @@
 title: Hacking Nan & Byron's Beet Burger
 date: 2014-05-13
 description: 45 min start to finish recipe for a beet burger with awesome meaty mouth feel found at Nan & Byron's and 5 Church in Charlotte, NC
-img: ./nan-byrons-beet-burger.jpg
+image: ./nan-byrons-beet-burger.jpg
 tags: [Cooking]
 ---
 Hacking has had a bad wrap for over 40 years. Yet today Facebook is on Hackerway Way and [Charlotte’s hosted a hackathon for a second year](https://detailedblock.com/2014/04/18/hackathonclt-planned-larger-event-2014/). While hacking still means rule breaking to some, the phrase means a clever solution too.

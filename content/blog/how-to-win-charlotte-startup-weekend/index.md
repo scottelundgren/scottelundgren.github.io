@@ -2,7 +2,7 @@
 title: How to Win Charlotte Startup Weekend
 date: 2014-01-09
 description: An overview, steps, and advice to win a startup pitch competition written by a former winner
-img:
+image:
 tags: [Business,Tech]
 ---
 Below is a repost written to encourage others to be at [Charlotte Startup Weekend](https://charlotte.startupweekend.org/)

@@ -2,7 +2,7 @@
 title: Girl Develop It Launches Charlotte Chapter
 date: 2014-07-31
 description: Goals, offerings and hopes for this new group supporting women in technology in Charlotte,NC 
-img:
+image:
 tags: [Tech]
 ---
 My hope is you’ll help me get fired from a job I want. Let me explain. At [BlendConf 2013](../blend-conference-2013/) Ashe Dryden gave a talk on the challenges of entering the technology field. Those challenges affect disproportionately any one that is not a white, straight, single male. She ended on a list of action items. One was to increase education and access. Among the organizations she mentioned was Girl Develop It that just started a chapter in Charlotte.

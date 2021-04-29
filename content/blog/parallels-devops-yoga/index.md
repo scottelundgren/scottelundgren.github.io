@@ -2,7 +2,7 @@
 title: Parallels of DevOps & Yoga
 date: 2013-11-23
 description: If you're a software developer, a regular yoga practice can help you have a healthier body. If you're regular yoga practitioner, you may want to learn to code
-img: 
+image: 
 tags: [Infrastructure,Yoga]
 ---
 I had a job that made me unhappy until one day I quit. No plan, no interviews scheduled, no idea what I desired to work on next, not even sure if I wanted to stay in technology I was so burnt out.

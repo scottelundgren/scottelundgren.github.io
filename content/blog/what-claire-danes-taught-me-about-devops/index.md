@@ -2,7 +2,7 @@
 title: What Claire Danes Taught Me about DevOps
 date: 2013-11-02
 description: the lessons being an extra on Showtime's Homeland Season 3 Episode 5's The Yoga Play taught me about software development
-img: ./homeland-S03-E05-the-yoga-play-scene-530.jpg
+image: ./homeland-S03-E05-the-yoga-play-scene-530.jpg
 tags: [Business,Infrastructure,Tech,Yoga]
 ---
 In July my voice teacher let me know that Homeland was looking for yoga practitioners for a scene. Between the morning when she mentioned it and the afternoon when she filled me in on the details to apply, seemingly twitter, facebook and even lunch time TV news had spread the word.

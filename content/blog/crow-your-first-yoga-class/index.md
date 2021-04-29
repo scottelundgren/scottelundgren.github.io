@@ -2,7 +2,7 @@
 title: Crow in Your First Yoga Class
 date: 2013-08-15
 description: If you're struggling with the mental jump to try crow pose in your yoga practice, read this to change your confidence and perspective
-img:
+image:
 tags: [Infrastructure,Yoga]
 ---
 I believe I am like most men in that my practice started with a girlfriend. One that took me to my first yoga class, where I muddled through my first poses, and yet I found a way into bakasana, crow pose. Let me tell you how.

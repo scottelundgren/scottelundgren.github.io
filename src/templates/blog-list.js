@@ -24,14 +24,14 @@ class BlogIndex extends React.Component {
           {posts.map(({ node }) => {
             return (
               <article className="post" key={node.fields.slug}>
-                {node.frontmatter.img &&
-                  node.frontmatter.img.childImageSharp &&
-                  node.frontmatter.img.childImageSharp.gatsbyImageData && (
+                {node.frontmatter.image &&
+                 node.frontmatter.image.childImageSharp &&
+                  node.frontmatter.image.childImageSharp.gatsbyImageData && (
                     <Link
                       to={node.fields.slug}
                       className="post-thumbnail"
                       style={{
-                        backgroundImage: `url(${node.frontmatter.img.childImageSharp.gatsbyImageData.images.fallback.src})`,
+                        backgroundImage: `url(${node.frontmatter.image.childImageSharp.gatsbyImageData.images.fallback.src})`,
                       }}
                     />
                   )}
@@ -105,7 +105,7 @@ export const pageQuery = graphql`
           frontmatter {
             date(formatString: "YYYY MMM DD")
             title
-            img {
+            image {
               childImageSharp {
                 gatsbyImageData(placeholder: BLURRED, layout: FULL_WIDTH)
               }

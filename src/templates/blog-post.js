@@ -24,20 +24,20 @@ class BlogPostTemplate extends React.Component {
 
     return (
       <DefaultLayout>
-        <SEO title={post.frontmatter.title} description={post.excerpt} />
+        <SEO title={post.frontmatter.title} description={post.frontmatter.description} />
         <div className="clearfix post-content-box">
           <article className="article-page">
             <div className="page-content">
-              {post.frontmatter.img && (
+              {post.frontmatter.image && (
                 <div className="page-cover-image">
                   <figure>
                     <GatsbyImage
                       image={
-                        post.frontmatter.img.childImageSharp.gatsbyImageData
+                        post.frontmatter.image.childImageSharp.gatsbyImageData
                       }
                       className="page-image"
                       key={
-                        post.frontmatter.img.childImageSharp.gatsbyImageData.src
+                        post.frontmatter.image.childImageSharp.gatsbyImageData.src
                       }
                       alt=""
                     />
@@ -85,7 +85,6 @@ export const pageQuery = graphql`
   query BlogPostBySlug($slug: String!) {
     site {
       siteMetadata {
-        author
         title
       }
     }
@@ -97,9 +96,10 @@ export const pageQuery = graphql`
       }
       frontmatter {
         title
+        description
         date(formatString: "YYYY MMM DD")
         tags
-        img {
+        image {
           childImageSharp {
             gatsbyImageData(placeholder: BLURRED, layout: FULL_WIDTH)
           }

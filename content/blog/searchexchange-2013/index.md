@@ -2,7 +2,7 @@
 title: SearchExchange 2013
 date: 2013-08-01
 description: Summary of the 2013 SearchExchange Conference in Charlotte, NC on Pay Per Click (PPC), Search Engine Optimization (SEO), and Social Media Marketing (SMM)
-img:
+image:
 tags: [Business,Events,Tech]
 ---
 I'm always interested in fields parallel to my own. When [Experience Farm](https://experiencefarm.com) offered me their tickets to a digital marketing conference I hopped right on it.

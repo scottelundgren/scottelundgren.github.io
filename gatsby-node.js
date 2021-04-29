@@ -22,7 +22,7 @@ exports.createPages = ({ graphql, actions }) => {
         frontmatter {
           title
           tags
-          img {
+          image {
             childImageSharp {
               gatsbyImageData(placeholder: BLURRED, layout: FULL_WIDTH)
             }

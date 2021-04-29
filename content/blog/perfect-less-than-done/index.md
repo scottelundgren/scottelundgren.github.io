@@ -2,7 +2,7 @@
 title: Perfect is Less than Done
 date: 2013-07-31
 description: Stop worrying about if you or your idea is good enough! You are good enough! Your idea is good enough! Just do the damn thing then make it better.
-img:
+image:
 tags: [Adventures]
 ---
 If you don't know "Done is Better than Perfect" is a quote from Mark Zuckerberg and over the past year I've come to understand it more than its surface expression. 99.99% as much as possible uptime. All the security patches in place. Waterfall driven development of politically based features. An environment that conditioned perfection and guaranteed failure. I took a break, did some exploration and came up with what will be here.
