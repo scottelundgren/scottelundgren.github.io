@@ -25,7 +25,7 @@ class BlogPostTemplate extends React.Component {
     return (
       <DefaultLayout>
         <SEO 
-          title={post.frontmatter.title} 
+          title={post.frontmatter.title}
           description={post.frontmatter.description}
           imageSrc={getSrc(post.frontmatter.image?.childImageSharp.gatsbyImageData)}
           imageAlt={post.frontmatter.imageAlt}
@@ -111,6 +111,7 @@ export const pageQuery = graphql`
             gatsbyImageData(placeholder: BLURRED, layout: FULL_WIDTH)
           }
         }
+        imageAlt
       }
       html
       timeToRead
