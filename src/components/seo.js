@@ -15,7 +15,7 @@ import { useStaticQuery, graphql } from "gatsby"
 // return null if either argument is not provided
 const constructUrl = (baseUrl, path) => !baseUrl || !path ? null : `${baseUrl}${path}`;
 
-const SEO = ({ description, lang, meta, title, imageSrc, imageAlt }) => {
+const SEO = ({ description, lang, meta, title, imageSrc, imageAlt, slug }) => {
   const { site } = useStaticQuery(
     graphql`
       query {
@@ -33,6 +33,7 @@ const SEO = ({ description, lang, meta, title, imageSrc, imageAlt }) => {
   )  
   const metaDescription = description || site.siteMetadata.description;
   const imageUrl = constructUrl(site.siteMetadata.siteUrl, imageSrc);
+  const pageUrl = constructUrl(site.siteMetadata.siteUrl, slug);
 
   return (
     <Helmet
@@ -55,12 +56,16 @@ const SEO = ({ description, lang, meta, title, imageSrc, imageAlt }) => {
           content: title,
         },
         {
-          property: "og:image",
+          property: `og:image`,
           content: imageUrl,
         },
         {
           property: `og:type`,
           content: `website`,
+        },
+        {
+          property: `og:url`,
+          content: pageUrl,
         },
         {
           name: `twitter:card`,
@@ -76,7 +81,7 @@ const SEO = ({ description, lang, meta, title, imageSrc, imageAlt }) => {
         },
         {
           property: "twitter:image:alt",
-          content: imageAlt ? imageAlt : ``,
+          content: imageAlt,
         },
         {
           name: `msapplication-TileColor`,

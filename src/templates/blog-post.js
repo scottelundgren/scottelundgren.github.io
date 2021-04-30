@@ -29,6 +29,7 @@ class BlogPostTemplate extends React.Component {
           description={post.frontmatter.description}
           imageSrc={getSrc(post.frontmatter.image?.childImageSharp.gatsbyImageData)}
           imageAlt={post.frontmatter.imageAlt}
+          slug={post.fields.slug}
         />
         <div className="clearfix post-content-box">
           <article className="article-page">
