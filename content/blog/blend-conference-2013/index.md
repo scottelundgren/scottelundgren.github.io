@@ -3,6 +3,7 @@ title: "Blend Conference 2013"
 date: "2013-09-10"
 description: "Summary of the 2013 Blend Conference including the workshops, VIP dinner, and the talks attended including Ashe Dryden, James White and Carl Smith"
 image: "./blendconf-2013-treehouse-promotional-video-screenshot.png"
+imageAlt: "BlendConf 2013 poster on an easel in a hotel hallway"
 tags: [Events, Tech]
 ---
 They say the right thing happens at the right time. I had the pleasure of working with Bermon Painter while he was organizing this event. What attracted me was an interactive driven environment and a multidisciplinary schedule. The notebook handed out to all attendees became full. I’ll do my best to summarize the experience and the longest lasting take aways.

@@ -3,6 +3,7 @@ title: What Claire Danes Taught Me about DevOps
 date: 2013-11-02
 description: the lessons being an extra on Showtime's Homeland Season 3 Episode 5's The Yoga Play taught me about software development
 image: ./homeland-S03-E05-the-yoga-play-scene-530.jpg
+imageAlt: "The inside of 8th Street Yoga Studio facing toward 8th Street, sunlight streaming in. Bolsters, Blankets, and Blocks stacked on the left against the brick wall. To the right Scott Lundgren in a green t-shirt, gray shorts, blonde woman to the right arranging face towels on a bookcase in front of a window. A slim bald man in a dark green jacket and black pants leaving the studio."
 tags: [Business,Infrastructure,Tech,Yoga]
 ---
 In July my voice teacher let me know that Homeland was looking for yoga practitioners for a scene. Between the morning when she mentioned it and the afternoon when she filled me in on the details to apply, seemingly twitter, facebook and even lunch time TV news had spread the word.
