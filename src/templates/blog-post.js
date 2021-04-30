@@ -23,7 +23,7 @@ class BlogPostTemplate extends React.Component {
     }
 
     return (
-      <DefaultLayout location={location} >
+      <DefaultLayout>
         <SEO 
           title={post.frontmatter.title} 
           description={post.frontmatter.description}
