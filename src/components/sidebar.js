@@ -1,7 +1,7 @@
 import { Link } from 'gatsby'
 import React from 'react'
 
-import Headshot from './scott-lundgren-headshot.jpg'
+import Headshot from '../../content/assets/scott-lundgren-headshot.jpg'
 
 const Sidebar = ({ siteMetadata }) => (
   <>
