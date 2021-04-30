@@ -8,9 +8,14 @@
 import * as React from "react"
 import PropTypes from "prop-types"
 import { Helmet } from "react-helmet"
+import { getSrc } from "gatsby-plugin-image"
 import { useStaticQuery, graphql } from "gatsby"
 
-const SEO = ({ description, lang, meta, title }) => {
+// Be lenient with null values making sure we
+// return null if either argument is not provided
+const constructUrl = (baseUrl, path) => !baseUrl || !path ? null : `${baseUrl}${path}`;
+
+const SEO = ({ description, lang, meta, title, imageSrc, imageAlt }) => {
   const { site } = useStaticQuery(
     graphql`
       query {
@@ -20,12 +25,15 @@ const SEO = ({ description, lang, meta, title }) => {
             social {
               twitter
             }
+            siteUrl
           }
         }
       }
     `
-  )
-  
+  )  
+  const metaDescription = description || site.siteMetadata.description;
+  const imageUrl = constructUrl(site.siteMetadata.siteUrl, imageSrc);
+
   return (
     <Helmet
       htmlAttributes={{
@@ -36,39 +44,39 @@ const SEO = ({ description, lang, meta, title }) => {
       meta={[
         {
           name: `description`,
-          content: description,
+          content: metaDescription,
         },
         {
           property: `og:description`,
-          content: description,
+          content: metaDescription,
         },
         {
           property: `og:title`,
           content: title,
         },
-//        {
-//          name: `og:image`,
-//          content: image,
-//        },
+        {
+          property: "og:image",
+          content: imageUrl,
+        },
         {
           property: `og:type`,
           content: `website`,
         },
         {
           name: `twitter:card`,
-          content: `summary`,
+          content: imageUrl ? `summary_large_image` : `summary`,
+        },
+        {
+          name: `twitter:creator`,
+          content: site.siteMetadata.social.twitter
         },
         {
           name: `twitter:description`,
           content: description,
         },
         {
-          name: `twitter:creator`,
-          content: site.siteMetadata?.social?.twitter || ``,
-        },
-        {
-          name: `twitter:title`,
-          content: title,
+          property: "twitter:image:alt",
+          content: imageAlt ? imageAlt : ``,
         },
         {
           name: `msapplication-TileColor`,
@@ -87,14 +95,14 @@ const SEO = ({ description, lang, meta, title }) => {
         },
         {
           rel: `icon`,
-          href: `/favicon-32x32.png`,
-          sizes: `32x32`,
+          href: `/favicon-16x16.png`,
+          sizes: `16x16`,
           type: `image/png`
         },
         {
           rel: `icon`,
-          href: `/favicon-16x16.png`,
-          sizes: `16x16`,
+          href: `/favicon-32x32.png`,
+          sizes: `32x32`,
           type: `image/png`
         },
         {

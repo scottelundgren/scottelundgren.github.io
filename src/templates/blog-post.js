@@ -1,8 +1,8 @@
-import React from 'react'
-import { Link, graphql } from 'gatsby'
-import { kebabCase } from 'lodash'
-import { GatsbyImage } from 'gatsby-plugin-image'
-import { DiscussionEmbed } from 'disqus-react'
+import React from "react"
+import { Link, graphql } from "gatsby"
+import { kebabCase } from "lodash"
+import { GatsbyImage,getSrc } from "gatsby-plugin-image"
+import { DiscussionEmbed } from "disqus-react"
 
 import DefaultLayout from '../components/layout'
 import SEO from '../components/seo'
@@ -23,8 +23,13 @@ class BlogPostTemplate extends React.Component {
     }
 
     return (
-      <DefaultLayout>
-        <SEO title={post.frontmatter.title} description={post.frontmatter.description} />
+      <DefaultLayout location={location} >
+        <SEO 
+          title={post.frontmatter.title} 
+          description={post.frontmatter.description}
+          imageSrc={getSrc(post.frontmatter.image?.childImageSharp.gatsbyImageData)}
+          imageAlt={post.frontmatter.imageAlt}
+        />
         <div className="clearfix post-content-box">
           <article className="article-page">
             <div className="page-content">
@@ -33,13 +38,13 @@ class BlogPostTemplate extends React.Component {
                   <figure>
                     <GatsbyImage
                       image={
-                        post.frontmatter.image.childImageSharp.gatsbyImageData
+                        post.frontmatter.image?.childImageSharp.gatsbyImageData
                       }
                       className="page-image"
                       key={
-                        post.frontmatter.image.childImageSharp.gatsbyImageData.src
+                        post.frontmatter.image?.childImageSharp.gatsbyImageData.src
                       }
-                      alt=""
+                      alt={post.frontmatter.imageAlt}
                     />
                   </figure>
                 </div>
@@ -86,6 +91,7 @@ export const pageQuery = graphql`
     site {
       siteMetadata {
         title
+        siteUrl
       }
     }
     markdownRemark(fields: { slug: { eq: $slug } }) {
@@ -96,8 +102,8 @@ export const pageQuery = graphql`
       }
       frontmatter {
         title
-        description
         date(formatString: "YYYY MMM DD")
+        description
         tags
         image {
           childImageSharp {
