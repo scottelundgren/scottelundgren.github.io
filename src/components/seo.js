@@ -21,6 +21,7 @@ const SEO = ({ description, lang, meta, title, imageSrc, imageAlt, slug }) => {
       query {
         site {
           siteMetadata {
+            author
             title
             social {
               twitter
@@ -48,6 +49,10 @@ const SEO = ({ description, lang, meta, title, imageSrc, imageAlt, slug }) => {
           content: metaDescription,
         },
         {
+          property: `article:author`,
+          content: site.siteMetadata.author,
+        },
+        {
           property: `og:description`,
           content: metaDescription,
         },
@@ -68,15 +73,15 @@ const SEO = ({ description, lang, meta, title, imageSrc, imageAlt, slug }) => {
           content: pageUrl,
         },
         {
-          name: `twitter:card`,
+          property: `twitter:card`,
           content: imageUrl ? `summary_large_image` : `summary`,
         },
         {
-          name: `twitter:creator`,
+          property: `twitter:creator`,
           content: site.siteMetadata.social.twitter
         },
         {
-          name: `twitter:description`,
+          property: `twitter:description`,
           content: description,
         },
         {
