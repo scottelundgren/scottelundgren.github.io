@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Scott Lundgren's RSS Feed]]></title><description><![CDATA[Lawful Dev in a Chaotic Ops World 😼 Everything is an Experiment]]></description><link>https://www.scottelundgren.com</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 22 Apr 2021 20:04:32 GMT</lastBuildDate><item><title><![CDATA[Lessons from Remote: Office Not Required in a Global Pandemic]]></title><description><![CDATA[It has been one year and one month since the World Health Organization declared COVID-19 a pandemic. Therefore there is no surprise that…]]></description><link>https://www.scottelundgren.com/lessons-from-remote-office-not-required-in-a-global-pandemic/</link><guid isPermaLink="false">https://www.scottelundgren.com/lessons-from-remote-office-not-required-in-a-global-pandemic/</guid><pubDate>Tue, 20 Apr 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;It has been one year and one month since the World Health Organization declared COVID-19 a pandemic. Therefore there is no surprise that searches on Google for the seven-and-a-half-year-old book &lt;a href=&quot;https://amzn.to/3x9h3o1&quot;&gt;Remote: Office Not Required by Jason Fried and David Heinemeier Hansson&lt;/a&gt; dramatically jumped. &lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Scott Lundgren's RSS Feed]]></title><description><![CDATA[Lawful Dev in a Chaotic Ops World 😼 Everything is an Experiment]]></description><link>https://www.scottelundgren.com</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 30 Apr 2021 13:30:32 GMT</lastBuildDate><item><title><![CDATA[Lessons from Remote: Office Not Required in a Global Pandemic]]></title><description><![CDATA[It has been one year and one month since the World Health Organization declared COVID-19 a pandemic. Therefore there is no surprise that…]]></description><link>https://www.scottelundgren.com/lessons-from-remote-office-not-required-in-a-global-pandemic/</link><guid isPermaLink="false">https://www.scottelundgren.com/lessons-from-remote-office-not-required-in-a-global-pandemic/</guid><pubDate>Tue, 20 Apr 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;It has been one year and one month since the World Health Organization declared COVID-19 a pandemic. Therefore there is no surprise that searches on Google for the seven-and-a-half-year-old book &lt;a href=&quot;https://amzn.to/3x9h3o1&quot;&gt;Remote: Office Not Required by Jason Fried and David Heinemeier Hansson&lt;/a&gt; dramatically jumped. &lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 970px; &quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1200px; &quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
@@ -12,19 +12,19 @@
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 44.44444444444444%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAAAsTAAALEwEAmpwYAAABPUlEQVQoz22S3ZKDIAyFff9H3Ku9qKNYsVpAQAhnE1w6drvMnDETki8/2G02QqkJ8zxXKaUQY8T1lFKQc4a1FiGEl++q5usKZRDRB0CUUnqzBSqxf0HXvM5w1XVdcRwHjDGvLkRaa+z7Du89lmWpvis05VTzpFhT55zDtm0IPiCGiFt/q6CWJABRsyV+miYMw8DFXfXJiqSoqGvkI3k8zB3jvcfu9n/3JJJkmULpHmrpETmPL2oDAu9KIRCvYmaYj+Zjj/8tv52YLPqV15JqBnN4h2DgsmfcXQNRrUa/AKJ34PmArHI+pLKA5nwBZr7rxFh8wWhzbd1EqpdiFzrtmCW4YA0Ed5xfkRQdTWboCZf4usPZshzhGQoGcyY9TMCD/1HP48id3gnjU2IPfOmE2yZTyXSEbx2xcpdHJvwAa0bA8ZFoIDcAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 44.33333333333333%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAAAsTAAALEwEAmpwYAAABPUlEQVQoz22S3ZKDIAyFff9H3Ku9qKNYsVpAQAhnE1w6drvMnDETki8/2G02QqkJ8zxXKaUQY8T1lFKQc4a1FiGEl++q5usKZRDRB0CUUnqzBSqxf0HXvM5w1XVdcRwHjDGvLkRaa+z7Du89lmWpvis05VTzpFhT55zDtm0IPiCGiFt/q6CWJABRsyV+miYMw8DFXfXJiqSoqGvkI3k8zB3jvcfu9n/3JJJkmULpHmrpETmPL2oDAu9KIRCvYmaYj+Zjj/8tv52YLPqV15JqBnN4h2DgsmfcXQNRrUa/AKJ34PmArHI+pLKA5nwBZr7rxFh8wWhzbd1EqpdiFzrtmCW4YA0Ed5xfkRQdTWboCZf4usPZshzhGQoGcyY9TMCD/1HP48id3gnjU2IPfOmE2yZTyXSEbx2xcpdHJvwAa0bA8ZFoIDcAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Google Trends Search Traffic for Remote: Office Not Required from April 2013 to April 20&quot;
         title=&quot;Google Trends Search Traffic for Remote: Office Not Required from April 2013 to April 20&quot;
-        src=&quot;/static/21c8bd5f28424daf6c82a600c25c2a28/587b0/remote-office-not-required-google-trend.png&quot;
-        srcset=&quot;/static/21c8bd5f28424daf6c82a600c25c2a28/8aea6/remote-office-not-required-google-trend.png 243w,
-/static/21c8bd5f28424daf6c82a600c25c2a28/44c61/remote-office-not-required-google-trend.png 485w,
-/static/21c8bd5f28424daf6c82a600c25c2a28/587b0/remote-office-not-required-google-trend.png 970w,
-/static/21c8bd5f28424daf6c82a600c25c2a28/5b795/remote-office-not-required-google-trend.png 1455w,
+        src=&quot;/static/21c8bd5f28424daf6c82a600c25c2a28/c1b63/remote-office-not-required-google-trend.png&quot;
+        srcset=&quot;/static/21c8bd5f28424daf6c82a600c25c2a28/5a46d/remote-office-not-required-google-trend.png 300w,
+/static/21c8bd5f28424daf6c82a600c25c2a28/0a47e/remote-office-not-required-google-trend.png 600w,
+/static/21c8bd5f28424daf6c82a600c25c2a28/c1b63/remote-office-not-required-google-trend.png 1200w,
+/static/21c8bd5f28424daf6c82a600c25c2a28/d61c2/remote-office-not-required-google-trend.png 1800w,
 /static/21c8bd5f28424daf6c82a600c25c2a28/29114/remote-office-not-required-google-trend.png 1920w&quot;
-        sizes=&quot;(max-width: 970px) 100vw, 970px&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
       /&gt;
@@ -305,7 +305,7 @@ application/vnd.ms-fontobject eot;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;There is no wall of that&apos;s acting &amp;#x26; that&apos;s production just as DevOps embraces as we&apos;ve moved from shipped stand alone software to continuously deployed web applications. Wardrobe and props are functions that help actors best embody their character just as building internal environments of development &amp;#x26; staging or the quality assurance teams help the team create their best product.&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 970px; &quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1200px; &quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
@@ -316,19 +316,19 @@ application/vnd.ms-fontobject eot;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 74.8971193415638%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAECAwX/xAAWAQEBAQAAAAAAAAAAAAAAAAABAAL/2gAMAwEAAhADEAAAAejKWWzIL//EABgQAAMBAQAAAAAAAAAAAAAAAAABEQIh/9oACAEBAAEFAujbM6cpSn//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAUEAEAAAAAAAAAAAAAAAAAAAAg/9oACAEBAAY/Al//xAAaEAEAAwADAAAAAAAAAAAAAAABABEhUbHw/9oACAEBAAE/IRsusGZvEVruYUY1qeVP/9oADAMBAAIAAwAAABBjL//EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oACAEDAQE/EEf/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAgBAgEBPxBX/8QAGxABAQEAAgMAAAAAAAAAAAAAAREAITFBYZH/2gAIAQEAAT8QqgHhEDLWkvZCYuqNwqAP3QU3nScQPXTf/9k=&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAECAwX/xAAWAQEBAQAAAAAAAAAAAAAAAAABAAL/2gAMAwEAAhADEAAAAejKWWzIL//EABgQAAMBAQAAAAAAAAAAAAAAAAABEQIh/9oACAEBAAEFAujbM6cpSn//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAUEAEAAAAAAAAAAAAAAAAAAAAg/9oACAEBAAY/Al//xAAaEAEAAwADAAAAAAAAAAAAAAABABEhUbHw/9oACAEBAAE/IRsusGZvEVruYUY1qeVP/9oADAMBAAIAAwAAABBjL//EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oACAEDAQE/EEf/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAgBAgEBPxBX/8QAGxABAQEAAgMAAAAAAAAAAAAAAREAITFBYZH/2gAIAQEAAT8QqgHhEDLWkvZCYuqNwqAP3QU3nScQPXTf/9k=&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Homeland Season 3 Episode 5 The Yoga Play Script&quot;
         title=&quot;Homeland Season 3 Episode 5 The Yoga Play Script&quot;
-        src=&quot;/static/17f4811e6ed0c5bfbe2cbdee59e263a8/ec7ce/homeland-S03-E05-the-yoga-play-script.jpg&quot;
-        srcset=&quot;/static/17f4811e6ed0c5bfbe2cbdee59e263a8/3f316/homeland-S03-E05-the-yoga-play-script.jpg 243w,
-/static/17f4811e6ed0c5bfbe2cbdee59e263a8/0d3a1/homeland-S03-E05-the-yoga-play-script.jpg 485w,
-/static/17f4811e6ed0c5bfbe2cbdee59e263a8/ec7ce/homeland-S03-E05-the-yoga-play-script.jpg 970w,
-/static/17f4811e6ed0c5bfbe2cbdee59e263a8/8010b/homeland-S03-E05-the-yoga-play-script.jpg 1455w,
+        src=&quot;/static/17f4811e6ed0c5bfbe2cbdee59e263a8/e5166/homeland-S03-E05-the-yoga-play-script.jpg&quot;
+        srcset=&quot;/static/17f4811e6ed0c5bfbe2cbdee59e263a8/f93b5/homeland-S03-E05-the-yoga-play-script.jpg 300w,
+/static/17f4811e6ed0c5bfbe2cbdee59e263a8/b4294/homeland-S03-E05-the-yoga-play-script.jpg 600w,
+/static/17f4811e6ed0c5bfbe2cbdee59e263a8/e5166/homeland-S03-E05-the-yoga-play-script.jpg 1200w,
+/static/17f4811e6ed0c5bfbe2cbdee59e263a8/d9c39/homeland-S03-E05-the-yoga-play-script.jpg 1800w,
 /static/17f4811e6ed0c5bfbe2cbdee59e263a8/0f98f/homeland-S03-E05-the-yoga-play-script.jpg 1920w&quot;
-        sizes=&quot;(max-width: 970px) 100vw, 970px&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
       /&gt;
