@@ -16,7 +16,7 @@ import { useStaticQuery, graphql } from "gatsby"
 const constructUrl = (baseUrl, path) => !baseUrl || !path ? null : `${baseUrl}${path}`;
 
 const SEO = ({ description, lang, meta, title, imageSrc, imageAlt, slug }) => {
-  const { site } = useStaticQuery(
+  const { site, ogImageDefault } = useStaticQuery(
     graphql`
       query {
         site {
@@ -29,11 +29,18 @@ const SEO = ({ description, lang, meta, title, imageSrc, imageAlt, slug }) => {
             siteUrl
           }
         }
+        ogImageDefault: file(relativePath: {eq: "icon.png"}) { 
+          childImageSharp {
+              gatsbyImageData(height: 260, width: 260)
+          }
+        }
       }
     `
-  )  
+  )
+
   const metaDescription = description || site.siteMetadata.description;
   const imageUrl = constructUrl(site.siteMetadata.siteUrl, imageSrc);
+  const ogImageUrl = imageUrl ?? constructUrl(site.siteMetadata.siteUrl, getSrc(ogImageDefault.childImageSharp.gatsbyImageData));  
   const pageUrl = constructUrl(site.siteMetadata.siteUrl, slug);
 
   return (
@@ -62,7 +69,7 @@ const SEO = ({ description, lang, meta, title, imageSrc, imageAlt, slug }) => {
         },
         {
           property: `og:image`,
-          content: imageUrl,
+          content: ogImageUrl,
         },
         {
           property: `og:type`,
@@ -86,7 +93,7 @@ const SEO = ({ description, lang, meta, title, imageSrc, imageAlt, slug }) => {
         },
         {
           property: "twitter:image:alt",
-          content: imageAlt,
+          content: imageAlt || "scottelundgren.com logo",
         },
         {
           name: `msapplication-TileColor`,
